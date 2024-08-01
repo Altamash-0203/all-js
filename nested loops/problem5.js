@@ -4,7 +4,7 @@ for(i=1;i<=10;i++)
         let pattern=""
         for(j=1;j<=i;j++)
             {
-                pattern=pattern+"x"
+                pattern=pattern+"*"
             }
      console.log(pattern)
     }
