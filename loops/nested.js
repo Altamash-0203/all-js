@@ -17,3 +17,17 @@ for(i=1;i<=5;i++)
         cart=cart+"hello "
     }
     console.log(cart)
+
+
+// string adding example-2    
+
+let bag=""
+for (i=1;i<=2;i++)
+    {
+        for(j=1;j<=3;j++)
+            {
+                bag=bag+"gol"
+                
+            }
+            console.log(bag)
+    }
