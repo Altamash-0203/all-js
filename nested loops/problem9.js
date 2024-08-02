@@ -49,14 +49,18 @@ if(month==2)
             break;
 
             case 11 :console.log("novamber")
+           
             break;
 
             case 12 :console.log("december")
+                     
             break;
         }
         
         for(day=1;day<=date;day++){
             console.log(day,"-",month);
+            
         }
+        console.log("<-------month end--------->")
 
     }
