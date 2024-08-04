@@ -5,8 +5,8 @@
   */
 
 
-  let n=6
-  
+  let n=prompt("enter num")
+
   let sum=0;
   for(i=1;i<=n;i++)
       {
