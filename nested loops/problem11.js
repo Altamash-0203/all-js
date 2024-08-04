@@ -1,5 +1,14 @@
-/* code for box patter   
-
+/* code for box pattern  
+**********
+*        *
+*        *
+*        *
+*        *
+*        *
+*        *
+*        *
+*        *
+**********
 */
 
 for(i=1;i<=10;i++)
