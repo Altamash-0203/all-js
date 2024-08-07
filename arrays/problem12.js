@@ -1,4 +1,4 @@
-//print first three index using loop
+//print first three index using loop and break
 
 
 let arr=["hell0","hi","bye","goodbye","hey",]
