@@ -10,20 +10,14 @@ function sum(x,y)
     let sum=x+y;
     return sum;
 }
-let result=sum(20,30)
+let result=sum(2,30)
+ console.log("the sum is=",result) // step 1
 
 
 let square=result*result
-
-console.log(square)
-
+console.log("the square is =",square)
 
 
-
-let q=5
- let g=q++
- let ad=q+g
- console.log(ad);
 
 
 
