@@ -50,7 +50,7 @@ var x=arr.lastIndexOf(9)// the 3 is indacating where should seaching start in ar
 
   //exampl of first index and last index
 
-  var names=["kalicharan","kalishakti","chudail","pandu","prushotam zhavne","chudail"] // chudai is repeated two time
+  var names=["kalicharan","kalishakti","chudail","pandu","prushotam zhavne","chudail"] // chudail is repeated two time
 
   //lastindex
   var x=names.lastIndexOf("chudail")// expected output 5 or if we are giving index num  >5 o/p will be 2
@@ -84,6 +84,39 @@ var x=arr.lastIndexOf(9)// the 3 is indacating where should seaching start in ar
  var arr=['j','a','v','a']
 console.log(arr.join());
 console.log(arr.join(""));// to remove seprator  add nothing in inverted comma
+
+/*__________________________________________________________________________________________________________________________*/
+
+//slice method
+
+ var arr=['s','p','e','e','d']
+ var x=arr.slice(2) // which index num is enter from that index array cut in seprate 
+ var y=arr.slice(1,4) // which index is you provided from that number to the the less than one from given second number is sliced
+ console.log(x)
+ console.log(y)
+
+/*__________________________________________________________________________________________________________________________*/
+
+//QUIZ
+var item= ['rice',"oil","vegetables","chilli"]  // dont add vegetables and chilli in cart 
+var cart=""
+
+for (i=0;i<item.length;i++)
+  {
+     if(item[i]=="vegetables")
+      {
+        continue;
+      }
+    else  if(item[i]=="chilli")
+        {
+          continue;
+        }
+      else{
+         cart=cart+"-"+item[i]
+      }
+  }
+ console.log(cart)
+
 
 /*__________________________________________________________________________________________________________________________*/
 
