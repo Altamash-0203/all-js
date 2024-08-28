@@ -98,7 +98,7 @@ console.log(arr.join(""));// to remove seprator  add nothing in inverted comma
 /*__________________________________________________________________________________________________________________________*/
 
 //QUIZ
-var item= ['rice',"oil","vegetables","chilli"]  // dont add vegetables and chilli in cart 
+var item= ['rice',"oil","vegetables","chilli"]  // dont add vegetables and chilli in cart
 var cart=""
 
 for (i=0;i<item.length;i++)
